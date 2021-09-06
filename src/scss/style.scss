@@ -1,0 +1,9 @@
+// Don't put scss here, create a new file for scss and import
+
+// bootstrap 
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+
+// style sheets
+@import "./front/_booking-form";
+@import "./front/_theme-colors"
