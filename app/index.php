@@ -1,6 +1,11 @@
-<?php include_once "./template_parts/header.php";?>
+<!DOCTYPE html>
+<html lang="en">
+<?php include_once "./template_parts/header.php"; ?>
 
-<?php echo "<br>app goes here 1 :-)<br>";?>
+<body class="bg-dark">
 
 
-<?php include_once "./template_parts/footer.php";?>
+    <?php include_once "./template_parts/footer.php"; ?>
+</body>
+
+</html>
