@@ -1,6 +1,35 @@
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 @import "_theme-colors";
 
+// custom text styles
+.text-style-1{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #252525;
+    
+}
+
+.text-style-2{
+    font-size: 0.9375rem;
+    font-weight: 500;
+    color: #808D8E;
+}
+
+.btn a:hover{
+    color: #fff;
+}
+
+.text-style-3{
+    font-size: 0.75rem;
+    font-weight: 400;
+    font-style: normal;
+    color: #808D8E;
+}
+
+.row{
+    margin-top: 5px;
+}
+
 body{
     margin-bottom: auto;
 }
@@ -27,6 +56,10 @@ body{
 
 }
 
+.select-btn:hover{
+    color: $white;
+}
+
 .progress-container{
     height: 10rem;
     margin: 20px 0px 30px 0px;
@@ -45,7 +78,11 @@ body{
     }
 }
 
-#step_2, #step_3{
+#step_2, #step_3, #step_4, #other-relationship, #schedule-details_lessons, #schedule-details_test{
+    display: none;
+}
+
+.book-for-someone{
     display: none;
 }
 
