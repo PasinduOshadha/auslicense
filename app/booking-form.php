@@ -16,52 +16,76 @@
             </div>
 
         </div>
+
+        <!-- content of the page -->
         <div class="content">
             <!-- progress bar and the container -->
-            <div class="progress-container">
+            <?php include_once "./template_parts/progress-bar.php"; ?>
 
-                <div class="form-row p-5">
-                    <div class="progress" style="height: 1px;">
-                        <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <div class="progress mt-4" style="height: 20px;">
-                        <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-
-                </div>
-            </div>
             <!-- The booking form -->
             <div class="d-flex justify-content-center">
                 <div class="bookig-form-container">
+                    <!-- beginning of the form -->
                     <form class="booking-form" action="#" method="post">
-                        <div class="card card-shadow">
-                            <div class="step_1" id="step_1">
+
+                        <!-- step 1 of the form -->
+                        <div class="step_1" id="step_1">
+                            <div class="card card-shadow">
                                 <div class="d-flex justify-content-center card-title">
                                     <p class="h3 text-uppercase">How can we help you?</p>
                                 </div>
+
+                                <!-- choose what to buy -->
                                 <div class="select-btn d-flex justify-content-center">
-                                    <label for="" class="select-label text-uppercase">
-                                        <input type="checkbox" name="driving-lessons" id="driving-lessons">
-                                        Driving lesson/s (1 & 2 hr)
-                                    </label>
+                                    <div class="row">
+                                        <div class="col-md-1">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" id="driving-lessons" name="driving-lessons">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-11">
+                                            <label for="" class="select-label text-uppercase">
+                                                Driving lesson/s (1 & 2 hr)
+                                            </label>
+                                        </div>
+                                    </div>
+
                                 </div>
                                 <div class="select-btn d-flex justify-content-center">
-                                    <label for="" class="select-label text-uppercase">
-                                        <input type="checkbox" name="driving-test" id="driving-test">
-                                        Driving test package
-                                    </label>
+                                    <div class="row">
+                                        <div class="col-md-1">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" id="driving-test" name="driving-test">
+
+                                            </div>
+                                        </div>
+                                        <div class="col-md-10">
+
+                                            <label for="" class="select-label text-uppercase">
+                                                Driving test package
+                                            </label>
+                                        </div>
+                                    </div>
                                 </div>
+
+                                <!-- continue button -->
                                 <div class="d-flex justify-content-center">
                                     <div class="btn btn-lg btn-primary text-uppercase submit-btn" id="nxt_btn_step1">
                                         Continue
                                     </div>
                                 </div>
-
                             </div>
-                            <div class="step_2" id="step_2">
+
+                        </div>
+
+                        <!-- step 2 of the form -->
+                        <div class="step_2" id="step_2">
+                            <div class="card card-shadow">
                                 <div class="d-flex justify-content-center card-title">
                                     <p class="h3 text-uppercase">Select your package</p>
                                 </div>
+
+                                <!-- lesson prices -->
                                 <div class="amount_lesson card p-2 m-1">
                                     <div class="row">
                                         <div class="col-md-11">
@@ -88,6 +112,8 @@
                                     </div>
 
                                 </div>
+
+                                <!-- test package prices -->
                                 <div class="amount_test card p-2 m-1">
                                     <div class="row">
                                         <div class="col-md-11">
@@ -112,6 +138,8 @@
                                     </div>
 
                                 </div>
+
+                                <!-- total amount -->
                                 <div class="total_amount card p-2 m-1">
                                     <div class="row">
                                         <div class="col-md-11">
@@ -133,6 +161,7 @@
                                 </div>
                                 <hr>
 
+                                <!-- packages to add more -->
                                 <div class="packages m-5">
                                     <div class="d-flex justify-content-center">
                                         <div class="row">
@@ -208,6 +237,7 @@
 
                                 </div>
 
+                                <!-- continue and back buttons -->
                                 <div class="d-flex justify-content-center">
                                     <div class="m-2 btn btn-lg btn-secondary text-uppercase submit-btn" id="bk_btn_step2">
                                         Back
@@ -219,8 +249,11 @@
                                 </div>
 
                             </div>
+                        </div>
 
-                            <div class="step_3" id="step_3">
+                        <!-- step 3 of the form -->
+                        <div class="step_3" id="step_3">
+                            <div class="card card-shadow">
                                 <div class="d-flex justify-content-center card-title">
                                     <p class="h3 text-uppercase">Schedule (Optional)</p>
                                 </div>
@@ -242,7 +275,8 @@
 
                                     </div>
                                 </div>
-                                <!-- Driving lessons -->
+
+                                <!-- Driving lessons packages -->
                                 <div id="schedule-details_lessons" class="card">
                                     <p class="card-header">Driving Lesson 1</p>
                                     <div class="card-body">
@@ -305,6 +339,7 @@
                                     </div>
 
                                 </div>
+
                                 <!-- Test Packages -->
                                 <div id="schedule-details_test" class="card">
                                     <p class="card-header">Driving Test Package</p>
@@ -371,13 +406,13 @@
                                     </div>
 
                                 </div>
-
-
-
                             </div>
                         </div>
 
+                        <!-- step 4 of the form -->
                         <div class="step_4" id="step_4">
+
+                            <!-- seletcted package details -->
                             <div class="card card-shadow">
                                 <div class="d-flex justify-content-center card-title mt-3">
                                     <p class="text-style-1">
@@ -400,6 +435,8 @@
 
                                 </div>
                             </div>
+
+                            <!-- registering for -->
                             <div class="card mt-5">
                                 <div class="card-body">
                                     <p class="text-style-1">
@@ -424,9 +461,11 @@
 
                                 </div>
                             </div>
+                            <!-- end of ---registering for--- -->
 
                             <div class="card mt-5">
                                 <div class="card-body">
+                                    <!-- pickup details -->
                                     <div class="book-for-me">
                                         <p class="text-style-1 d-flex justify-content-center">
                                             Please enter your pick up details
@@ -462,6 +501,8 @@
 
                                         </div>
                                     </div>
+
+                                    <!-- personal details -->
                                     <div class="book-for-me">
                                         <p class="text-style-1 d-flex justify-content-center mt-5">
                                             Please provide your personal details
@@ -554,6 +595,7 @@
                                         </div>
                                     </div>
 
+                                    <!-- in case if the booking is done by someone else -->
                                     <div class="book-for-someone">
                                         <p class="text-style-1 d-flex justify-content-center mt-5">
                                             Please provide your personal details
@@ -610,6 +652,8 @@
                                         </div>
 
                                     </div>
+                                    <!-- end of ---in case if the booking is done by someone else--- -->
+
                                     <p class="text-style-1 d-flex justify-content-center mt-5">
                                         Choose a password for your learning dashboard
                                     </p>
@@ -644,11 +688,15 @@
                                         </div>
 
                                     </div>
+                                </div>
+                            </div>
+                        </div>
 
-
-
-
-
+                        <!-- step 5 of the form -->
+                        <div class="step-5" id="step-5">
+                            <div class="card">
+                                <div class="card-title">
+                                    <h3>Payment Details</h3>
                                 </div>
                             </div>
                         </div>
@@ -667,6 +715,7 @@
 
 
         </div>
+        <!-- end of content -->
 
 
         <!-- footer -->
