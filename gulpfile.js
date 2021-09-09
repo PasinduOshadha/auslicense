@@ -16,7 +16,7 @@ var concat = require('gulp-concat')
 
 var paths = {
   styles: {
-    src: "./src/scss/*.scss",
+    src: "./src/scss/",
     dest: "./assets/css",
   },
   scripts: {
@@ -80,7 +80,7 @@ function build_css() {
   const plugins = [autoprefixer(), cssnano()];
 
   return gulp
-    .src(paths.styles.src)
+    .src(paths.styles.src + 'style.scss')
     .pipe(sourcemaps.init())
     .pipe(sass().on("error", sass.logError))
     .pipe(postcss(plugins))
@@ -123,7 +123,7 @@ gulp.task("watch", function () {
 
   gulp.watch([paths.scripts.src + 'admin/*.js', paths.scripts.src + 'front/*.js'], concatJs);
   gulp.watch(paths.scripts.src, build_js);
-  gulp.watch(paths.styles.src, build_css);
+  gulp.watch(paths.styles.src + '**/*.scss', build_css);
   gulp.watch(paths.images.src, image_min);
   gulp.watch(paths.phpFlies.src, watchPhp);
   // gulp.watch([paths.phpFlies.src]).on('change', reload);
