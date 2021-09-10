@@ -2,7 +2,7 @@
 
     <!-- progress bar milestone -->
     <div class="form-row progress-count">
-        <div class="row d-flex justify-content-center ">
+        <div class="row d-flex justify-content-center w-100">
 
             <!-- milestone 1 -->
             <div class="col-md-3">
@@ -53,7 +53,7 @@
     <div class="form-row progress-wrapper">
 
         <!-- progress track -->
-        <div class="progress d-flex align-items-center">
+        <div class="progress-boundary d-flex align-items-center">
 
         <!-- progress bar -->
             <div class="progress-bar" id="progress-bar" role="progressbar">
