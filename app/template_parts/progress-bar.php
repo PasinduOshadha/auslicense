@@ -53,16 +53,18 @@
     <div class="form-row progress-wrapper">
 
         <!-- progress track -->
-        <div class="progress-boundary d-flex align-items-center">
+        <div class="progress-boundary d-flex align-items-center rounded">
 
-        <!-- progress bar -->
-            <div class="progress-bar" id="progress-bar" role="progressbar">
+            <!-- progress bar -->
+            <div class="progress-bar bg-dark rounded" id="progress-bar" role="progressbar">
+                <div class="dashedSpace linear"></div>
             </div>
 
+
             <!-- profile image -->
-            <span class="dot" id="dot">
+            <span class="dot d-flex" id="dot">
                 <div class="progress-profile d-flex justify-content-center align-items-center">
-                    <i class="fas fa-user-alt fa-2x"></i>
+                    <img class="image" src="../assets/images/profile-1.png" alt="profile">
 
                 </div>
             </span>

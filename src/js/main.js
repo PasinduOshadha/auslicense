@@ -20,7 +20,7 @@ $(document).ready(function () {
 
 
         var progress_bar = document.getElementById("progress-bar");
-        progress_bar.style.width = 39 + '%';
+        progress_bar.style.width = 38 + '%';
     });
 
     $("#nxt_btn_step3").click(function (e) {
@@ -33,7 +33,7 @@ $(document).ready(function () {
 
 
         var progress_bar = document.getElementById("progress-bar");
-        progress_bar.style.width = 61 + '%';
+        progress_bar.style.width = 59 + '%';
     });
 
     $("#nxt_btn_step4").click(function (e) {
@@ -46,7 +46,7 @@ $(document).ready(function () {
 
 
         var progress_bar = document.getElementById("progress-bar");
-        progress_bar.style.width = 83 + '%';
+        progress_bar.style.width = 80 + '%';
     });
 
     // back buttons
