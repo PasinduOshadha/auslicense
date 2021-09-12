@@ -112,7 +112,8 @@
                                                 </div>
                                             </div>
                                             <div class="col-md-1 d-flex justify-content-center align-items-center">
-                                                <i class="fas fa-times"></i>
+                                            <span class="pull-right clickable close-icon" data-effect="fadeOut"><i class="fa fa-times"></i></span>
+
                                             </div>
                                         </div>
 
@@ -138,7 +139,8 @@
 
                                             </div>
                                             <div class="col-md-1 d-flex justify-content-center align-items-center">
-                                                <i class="fas fa-times"></i>
+                                            <span class="pull-right clickable close-icon" data-effect="fadeOut"><i class="fa fa-times"></i></span>
+
                                             </div>
                                         </div>
 

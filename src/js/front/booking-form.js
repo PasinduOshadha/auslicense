@@ -124,6 +124,11 @@ $(document).ready(function () {
         }
     });
 
+    // close button
+    $('.close-icon').on('click',function() {
+        $(this).closest('.card').fadeOut();
+      })
+
     // modal button
     $("#modal-button").click(function (e) { 
         e.preventDefault();

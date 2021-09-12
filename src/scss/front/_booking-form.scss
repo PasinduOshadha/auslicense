@@ -11,18 +11,34 @@
 .text-style-2 {
   font-size: 0.9375rem;
   font-weight: 500;
-  color: #808d8e;
-}
-
-.btn a:hover {
-  color: #fff;
+  color: $gery;
 }
 
 .text-style-3 {
   font-size: 0.75rem;
   font-weight: 400;
   font-style: normal;
-  color: #808d8e;
+  color: $gery;
+}
+
+.btn-text-1 {
+  font-size: 0.75rem !important;
+  font-weight: 500 !important;
+  color: $white !important;
+}
+
+// end of custom text styles
+
+.availability-link{
+  color: $secondary-color;
+}
+
+.availability-link:hover{
+  color: $primary-color !important;
+}
+
+.btn a:hover {
+  color: #fff;
 }
 
 .row {
@@ -54,6 +70,10 @@ body {
   background-color: $secondary-color !important;
   color: $white !important;
   padding: 10px;
+}
+
+.close-icon {
+  cursor: pointer;
 }
 
 .select-btn:hover {
@@ -119,8 +139,9 @@ body {
   width: 100%;
   position: relative;
   .image {
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
+    clip-path: circle(45%);
   }
 }
 
@@ -151,6 +172,7 @@ body {
   .image {
     width: 100%;
     height: 100%;
+    clip-path: circle(42%);
   }
 }
 

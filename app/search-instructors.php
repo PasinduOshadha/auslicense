@@ -56,8 +56,8 @@
 
                         <!-- profile image -->
                         <div class="col-md-4 d-flex align-items-center">
-                            <span class="circle">
-                                <div class="search-profile d-flex justify-content-center align-items-center">
+                            <span class="circle d-flex align-items-end">
+                                <div class="search-profile d-flex justify-content-center">
                                     <img class="image" src="../assets/images/profile-1.png" alt="profile">
                                 </div>
                             </span>
@@ -71,12 +71,15 @@
                                 <h3>Michael</h3>
                                 <p class="text-style-2 font-italic">Michael speaks English.</p>
                                 <div class="d-flex align-items-center">
-                                    <!-- calender icon -->
-                                    <i class="fas fa-calendar-week"></i>
 
-                                    <a class="text-dark" href="#" data-toggle="modal" data-target=".availability-details"> Check Availability </a>
+                                    <!-- availability modal -->
+                                    <a class="availability-link" href="#" data-toggle="modal" data-target=".availability-details"> 
+                                        <i class="fas fa-calendar-week"></i> 
+                                        Check Availability 
+                                        <i class="fas fa-chevron-right"></i>
+                                    </a>
 
-                                    <i class="fas fa-chevron-right"></i>
+                                    
                                 </div>
                             </div>
 
@@ -85,13 +88,13 @@
 
                                 <!-- view profile button -->
                                 <div class="col-md-6">
-                                    <a href="#" type="button" class="btn btn-secondary text-uppercase w-100">View Profile</a>
+                                    <a href="#" type="button" class="btn-text-1 btn btn-secondary text-uppercase w-100">View Profile</a>
 
                                 </div>
 
                                 <!-- book online button -->
                                 <div class="col-md-6">
-                                    <a href="booking-form.php" type="button" class="btn btn-primary text-uppercase w-100">Book Online Now</a>
+                                    <a href="booking-form.php" type="button" class="btn-text-1 btn btn-primary text-uppercase w-100">Book Online Now</a>
 
                                 </div>
 
@@ -106,8 +109,8 @@
 
                         <!-- profile image -->
                         <div class="col-md-4 d-flex align-items-center">
-                            <span class="circle">
-                                <div class="search-profile d-flex justify-content-center align-items-center">
+                            <span class="circle d-flex align-items-end">
+                                <div class="search-profile d-flex justify-content-center">
                                     <img class="image" src="../assets/images/profile-1.png" alt="profile">
                                 </div>
                             </span>
@@ -121,12 +124,12 @@
                                 <h3>Michael</h3>
                                 <p class="text-style-2 font-italic">Michael speaks English.</p>
                                 <div class="d-flex align-items-center">
-                                    <!-- calender icon -->
-                                    <i class="fas fa-calendar-week"></i>
-
-                                    <a class="text-dark" href="#" data-toggle="modal" data-target=".availability-details"> Check Availability </a>
-
-                                    <i class="fas fa-chevron-right"></i>
+                                    <!-- availability modal -->
+                                    <a class="availability-link" href="#" data-toggle="modal" data-target=".availability-details"> 
+                                        <i class="fas fa-calendar-week"></i> 
+                                        Check Availability 
+                                        <i class="fas fa-chevron-right"></i>
+                                    </a>
                                 </div>
                             </div>
 
@@ -135,13 +138,13 @@
 
                                 <!-- view profile button -->
                                 <div class="col-md-6">
-                                    <a href="#" type="button" class="btn btn-secondary text-uppercase w-100">View Profile</a>
+                                    <a href="#" type="button" class="btn-text-1 btn btn-secondary text-uppercase w-100">View Profile</a>
 
                                 </div>
 
                                 <!-- book online button -->
                                 <div class="col-md-6">
-                                    <a href="booking-form.php" type="button" class="btn btn-primary text-uppercase w-100">Book Online Now</a>
+                                    <a href="booking-form.php" type="button" class="btn-text-1 btn btn-primary text-uppercase w-100">Book Online Now</a>
 
                                 </div>
 
