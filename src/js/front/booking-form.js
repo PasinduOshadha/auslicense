@@ -58,7 +58,7 @@ $(document).ready(function () {
         var progress_bar = document.getElementById("progress-bar");
         progress_bar.style.width = 17 + '%';
 
-        
+
     });
     $("#bk_btn_step3").click(function (e) {
         e.preventDefault();
@@ -125,15 +125,40 @@ $(document).ready(function () {
     });
 
     // close button
-    $('.close-icon').on('click',function() {
+    $('.close-icon').on('click', function () {
         $(this).closest('.card').fadeOut();
-      })
+    })
 
-    // modal button
-    $("#modal-button").click(function (e) { 
+    // // modal button
+    // $("#modal-button").click(function (e) { 
+    //     e.preventDefault();
+    //     $(".bd-example-modal-lg").show();
+    // });
+
+    // search-instructors-------------------------------------------------------------------
+    // $("input[type=radio][name=transmission-mode]").change(function (e) {
+    //     if ($(this).val() == "Auto") {
+    //         $("#auto-selected").show();
+    //         $("#manual-selected").hide();
+    //     }
+    //     else {
+    //         $("#manual-selected").show();
+    //         $("#auto-selected").hide();
+    //     }
+    // })
+
+    $("#Auto").click(function (e) {
         e.preventDefault();
-        $(".bd-example-modal-lg").show();
+        $("#auto-selected").show();
+        $("#manual-selected").hide();
     });
+    $("#Manual").click(function (e) {
+        e.preventDefault();
+        $("#manual-selected").show();
+        $("#auto-selected").hide();
+    });
+
+    // ------------------------------------------------------
 
 
 
@@ -148,7 +173,7 @@ $(document).ready(function () {
             autoclose: true,
         };
         date_input.datepicker(options);
-    })
+    });
 
 
 });

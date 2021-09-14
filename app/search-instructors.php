@@ -24,12 +24,19 @@
 
                 <!-- select transmission type -->
                 <div class="col-md-3">
-                    <div class="btn-group w-100">
+                    <div class="btn-group w-100 transmission-group">
+
                         <input type="radio" class="btn-check" name="transmission-mode" id="Auto" checked />
-                        <label class="btn btn-secondary w-50 rounded-left" for="Auto">Auto</label>
+                        <label class="btn btn-secondary w-50 rounded-left d-flex align-items-center" for="Auto">
+                            <i class="fas fa-check text-success" id="auto-selected"></i>
+                            Auto
+                        </label>
 
                         <input type="radio" class="btn-check" name="transmission-mode" id="Manual" />
-                        <label class="btn btn-secondary w-50 rounded-right" for="Manual">Manual</label>
+                        <label class="btn btn-secondary w-50 rounded-right d-flex align-items-center" for="Manual">
+                            <i class="fas fa-check text-success" id="manual-selected"></i>
+                            Manual
+                        </label>
                     </div>
 
                 </div>
@@ -73,18 +80,18 @@
                                 <div class="d-flex align-items-center">
 
                                     <!-- availability modal -->
-                                    <a class="availability-link" href="#" data-toggle="modal" data-target=".availability-details"> 
-                                        <i class="fas fa-calendar-week"></i> 
-                                        Check Availability 
+                                    <a class="availability-link" href="#" data-toggle="modal" data-target=".availability-details">
+                                        <i class="fas fa-calendar-week"></i>
+                                        Check Availability
                                         <i class="fas fa-chevron-right"></i>
                                     </a>
 
-                                    
+
                                 </div>
                             </div>
 
                             <!-- profile buttons -->
-                            <div class="row">
+                            <div class="mt-3 row">
 
                                 <!-- view profile button -->
                                 <div class="col-md-6">
@@ -125,16 +132,16 @@
                                 <p class="text-style-2 font-italic">Michael speaks English.</p>
                                 <div class="d-flex align-items-center">
                                     <!-- availability modal -->
-                                    <a class="availability-link" href="#" data-toggle="modal" data-target=".availability-details"> 
-                                        <i class="fas fa-calendar-week"></i> 
-                                        Check Availability 
+                                    <a class="availability-link" href="#" data-toggle="modal" data-target=".availability-details">
+                                        <i class="fas fa-calendar-week"></i>
+                                        Check Availability
                                         <i class="fas fa-chevron-right"></i>
                                     </a>
                                 </div>
                             </div>
 
                             <!-- profile buttons -->
-                            <div class="row">
+                            <div class="mt-3 row">
 
                                 <!-- view profile button -->
                                 <div class="col-md-6">
@@ -166,12 +173,12 @@
                             <h5 class="modal-title col-md-7" id="exampleModalCenterTitle">To begin the booking process please select "Book with Michael"</h5>
                             <div class="row">
                                 <div class="row align-items-center">
-                                    <span class="available-mark border border-dark bg-secondary m-1"> </span> 
+                                    <span class="available-mark border border-dark bg-secondary m-1"> </span>
                                     Closed/ Booked out
 
                                 </div>
                                 <div class="row  align-items-center">
-                                    <span class="available-mark border border-dark m-1"> </span> 
+                                    <span class="available-mark border border-dark m-1"> </span>
                                     Available
 
                                 </div>

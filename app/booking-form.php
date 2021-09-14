@@ -70,7 +70,7 @@
                                     </div>
 
                                     <!-- continue button -->
-                                    <div class="d-flex justify-content-center">
+                                    <div class="mt-3 d-flex justify-content-center">
                                         <div class="btn btn-lg btn-primary text-uppercase submit-btn" id="nxt_btn_step1">
                                             Continue
                                         </div>
@@ -112,7 +112,7 @@
                                                 </div>
                                             </div>
                                             <div class="col-md-1 d-flex justify-content-center align-items-center">
-                                            <span class="pull-right clickable close-icon" data-effect="fadeOut"><i class="fa fa-times"></i></span>
+                                                <span class="pull-right clickable close-icon" data-effect="fadeOut"><i class="fa fa-times"></i></span>
 
                                             </div>
                                         </div>
@@ -139,7 +139,7 @@
 
                                             </div>
                                             <div class="col-md-1 d-flex justify-content-center align-items-center">
-                                            <span class="pull-right clickable close-icon" data-effect="fadeOut"><i class="fa fa-times"></i></span>
+                                                <span class="pull-right clickable close-icon" data-effect="fadeOut"><i class="fa fa-times"></i></span>
 
                                             </div>
                                         </div>
@@ -169,83 +169,79 @@
                                     <hr>
 
                                     <!-- packages to add more -->
-                                    <div class="packages m-5">
+                                    <div class="packages">
                                         <div class="d-flex justify-content-center">
                                             <div class="row">
                                                 <p class="h4 text-uppercase">Add more to Save!</p>
                                             </div>
                                         </div>
 
-                                        <div class="row">
+                                        <div class="row mt-3">
                                             <div class="col-md-4">
                                                 <div class="card card-shadow m-1">
-                                                    <div class="align-self-center">
-                                                        <div class="discount">
-                                                            <p class="text-uppercase">Save 5%</p>
-                                                        </div>
-                                                        <p class="h3">
-                                                            $66.50
-                                                            <small class="small-span">
-                                                                /hr
-                                                            </small>
-                                                        </p>
-                                                        <p class="h5">
-                                                            $399 Total
-                                                        </p>
-                                                        <div class="btn btn-sm btn-primary text-uppercase">Add 5 lessons</div>
+                                                    <div class="discount d-flex justify-content-center text-uppercase rounded">
+                                                        Save 5%
                                                     </div>
+                                                    <p class="h3 d-flex justify-content-center w-100">
+                                                        $66.50
+                                                        <small class="small-span">
+                                                            /hr
+                                                        </small>
+                                                    </p>
+                                                    <p class="h5 d-flex justify-content-center w-100">
+                                                        $399 Total
+                                                    </p>
+                                                    <div class="mt-3 btn btn-sm btn-secondary text-uppercase w-100">Add 5 lessons</div>
 
                                                 </div>
 
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="card card-shadow m-1">
-                                                    <div class="align-self-center">
-                                                        <div class="discount">
-                                                            <p class="text-uppercase">Save 5%</p>
-                                                        </div>
-                                                        <p class="h3">
-                                                            $66.50
-                                                            <small class="small-span">
-                                                                /hr
-                                                            </small>
-                                                        </p>
-                                                        <p class="h5">
-                                                            $399 Total
-                                                        </p>
-                                                        <div class="btn btn-sm btn-primary text-uppercase">Add 5 lessons</div>
+                                                    <div class="discount d-flex justify-content-center text-uppercase rounded">
+                                                        Save 5%
                                                     </div>
+                                                    <p class="h3 d-flex justify-content-center w-100">
+                                                        $66.50
+                                                        <small class="small-span">
+                                                            /hr
+                                                        </small>
+                                                    </p>
+                                                    <p class="h5 d-flex justify-content-center w-100">
+                                                        $399 Total
+                                                    </p>
+                                                    <div class="mt-3 btn btn-sm btn-secondary text-uppercase w-100">Add 5 lessons</div>
 
                                                 </div>
 
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="card card-shadow m-1">
-                                                    <div class="align-self-center">
-                                                        <div class="discount">
-                                                            <p class="text-uppercase">Save 5%</p>
-                                                        </div>
-                                                        <p class="h3">
-                                                            $66.50
-                                                            <small class="small-span">
-                                                                /hr
-                                                            </small>
-                                                        </p>
-                                                        <p class="h5">
-                                                            $399 Total
-                                                        </p>
-                                                        <div class="btn btn-sm btn-primary text-uppercase">Add 5 lessons</div>
+                                                    <div class="discount d-flex justify-content-center text-uppercase rounded">
+                                                        Save 5%
                                                     </div>
+                                                    <p class="h3 d-flex justify-content-center w-100">
+                                                        $66.50
+                                                        <small class="small-span">
+                                                            /hr
+                                                        </small>
+                                                    </p>
+                                                    <p class="h5 d-flex justify-content-center w-100">
+                                                        $399 Total
+                                                    </p>
+                                                    <div class="mt-3 btn btn-sm btn-secondary text-uppercase w-100">Add 5 lessons</div>
 
                                                 </div>
 
                                             </div>
+                                            
+                                            
                                         </div>
 
                                     </div>
 
                                     <!-- continue and back buttons -->
-                                    <div class="d-flex justify-content-center">
+                                    <div class="mt-3 d-flex justify-content-center">
                                         <div class="m-2 btn btn-lg btn-secondary text-uppercase submit-btn" id="bk_btn_step2">
                                             Back
                                         </div>
