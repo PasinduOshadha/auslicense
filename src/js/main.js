@@ -137,16 +137,6 @@ $(document).ready(function () {
     // });
 
     // search-instructors-------------------------------------------------------------------
-    // $("input[type=radio][name=transmission-mode]").change(function (e) {
-    //     if ($(this).val() == "Auto") {
-    //         $("#auto-selected").show();
-    //         $("#manual-selected").hide();
-    //     }
-    //     else {
-    //         $("#manual-selected").show();
-    //         $("#auto-selected").hide();
-    //     }
-    // })
 
     $("#Auto").click(function (e) {
         e.preventDefault();
@@ -157,6 +147,11 @@ $(document).ready(function () {
         e.preventDefault();
         $("#manual-selected").show();
         $("#auto-selected").hide();
+    });
+
+    $('.transmission-label').click(function(){
+        $(this).children('i').removeClass('display-n');
+        $(this).parent('.toggle').siblings('.toggle').children('label').children('i').addClass('display-n');
     });
 
     // ------------------------------------------------------

@@ -149,7 +149,7 @@ body {
 }
 
 .fas {
-  padding-left: 1rem;
+  // padding-left: 1rem;
   padding-right: 1rem;
 }
 
@@ -232,7 +232,7 @@ body {
 
 // end of custom font styles
 
-#manual-selected{
+#manual-selected {
   display: none;
 }
 
@@ -258,17 +258,46 @@ body {
   color: $primary-color !important;
 }
 
-.transmission-group{
-  .btn{
-    color: black !important;
-    background-color: #e2e2e2 !important;
-    // border-color: #1c7430;
-    
-  }
-  .btn-check:checked+.btn{
-    color: black !important;
+.transmission-group {
+	display: flex;
+	margin-bottom: 36px;
+	overflow: hidden;
+}
+
+.transmission-group input {
+	position: absolute !important;
+	clip: rect(0, 0, 0, 0);
+	height: 1px;
+	width: 1px;
+	border: 0;
+	overflow: hidden;
+}
+
+.transmission-group label {
+	background-color: #e4e4e4;
+	color: rgba(0, 0, 0, 0.6);
+	font-size: 14px;
+	line-height: 1;
+	text-align: center;
+	padding: 8px 16px;
+	margin-right: -1px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+	transition: all 0.1s ease-in-out;
+  border-color: #6E7271 !important;
+}
+
+.transmission-group label:hover {
+	cursor: pointer;
+}
+
+.transmission-group input:checked + label {
+	color: black !important;
     background-color: white !important;
     border-color: #6E7271 !important;
-
-  }
 }
+
+.display-n{
+  display: none !important;
+}
+

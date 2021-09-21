@@ -24,19 +24,21 @@
 
                 <!-- select transmission type -->
                 <div class="col-md-3">
-                    <div class="btn-group w-100 transmission-group">
-
-                        <input type="radio" class="btn-check" name="transmission-mode" id="Auto" checked />
-                        <label class="btn btn-secondary w-50 rounded-left d-flex align-items-center" for="Auto">
-                            <i class="fas fa-check text-success" id="auto-selected"></i>
-                            Auto
-                        </label>
-
-                        <input type="radio" class="btn-check" name="transmission-mode" id="Manual" />
-                        <label class="btn btn-secondary w-50 rounded-right d-flex align-items-center" for="Manual">
-                            <i class="fas fa-check text-success" id="manual-selected"></i>
-                            Manual
-                        </label>
+                    <div class="transmission-group w-100">
+                        <div class="toggle w-50">
+                            <input type="radio" id="radio-one" name="switch-one" value="yes" checked />
+                            <label for="radio-one" class="w-100 transmission-label rounded-left">
+                                <i class="fas fa-check text-success" id="auto-selected"></i>
+                                Auto
+                            </label>
+                        </div>
+                        <div class="toggle w-50">
+                            <input type="radio" id="radio-two" name="switch-one" value="no" />
+                            <label for="radio-two" class="w-100 transmission-label rounded-right">
+                                <i class="fas fa-check text-success display-n" id="auto-selected"></i>
+                                Manual
+                            </label>
+                        </div>
                     </div>
 
                 </div>
